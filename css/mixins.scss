@@ -1,0 +1,12 @@
+// default styles which are used often
+@mixin center {
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin heading {
+    h2 {
+        font: 30px Arial, sans-serif;     
+        text-align: center;;
+    }
+}

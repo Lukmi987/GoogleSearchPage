@@ -1,0 +1,60 @@
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+
+    form {
+      display: flex;
+      flex-wrap: wrap;
+      width: 85%;
+      margin: 0 auto;
+    }
+    
+    input[type="search"] {
+      border: none;
+      // whitespace: wrap;
+      border-radius: 5px;
+      background: #E9E9E9;
+      overflow: hidden; 
+      text-overflow: ellipsis; // 3 dots when the text is too long
+      white-space: nowrap;
+      padding: 1em 0.75em;
+      border: none;
+      font-size: 1.1em;
+      text-decoration: none;
+      line-height: normal;
+      max-height: 3em;
+      
+      flex: 2 0 250px;
+      margin-right: 1em;
+    }
+    
+    input[type="search"]:focus {
+      background:#d3d3d3;
+      color: white;
+      letter-spacing: .1em;
+      transition: background 400ms ease-in-out; // slowly changes color between normal input and focus input 
+      outline: none;
+    }
+    
+    button {
+      flex: 1 0 90px;
+      max-height: 3em;
+      font-size: 1.1em;
+      letter-spacing: .2em;
+      text-transform: uppercase;
+      border-radius: 0px 5px 5px 0px;
+      background: silver;
+      color: white;
+      border: none;
+      padding: 0.35em 0.75em;
+      cursor: pointer;  
+    }
+    button:hover {
+      background: skyblue;
+    }
+}
+
+

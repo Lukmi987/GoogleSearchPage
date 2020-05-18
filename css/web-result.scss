@@ -1,0 +1,44 @@
+
+.web-result {
+    background-color: #fff;
+    border: 1px solid grey;
+    border-radius: 20px;
+    margin: 10px;
+    width: 50%;
+    padding: 10px;
+
+
+    @include heading;
+    
+      .results_list {
+        list-style:none;
+    }
+    
+    .pagination {
+        text-align: center;
+        list-style: none;
+    }
+    
+     .pagination li {
+        display:inline;    
+     }
+     
+     a {text-decoration: none;}
+     a:hover {text-decoration: underline;}
+       
+     p {
+         margin-top: 10px;
+         padding-bottom: 30px;
+     }
+
+     @media (max-width: 830px) {
+        width: 90%;
+      }
+}
+
+.pagination  li:hover {
+        color: black;
+        cursor: pointer;
+        text-decoration: underline;
+     }
+
